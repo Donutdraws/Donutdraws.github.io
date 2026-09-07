@@ -128,3 +128,18 @@ h1,h2,h3{font-family:var(--display);line-height:1.02;letter-spacing:-.055em;marg
 }
 .site-header .logo{margin:0;padding:0}
 .site-header .nav{margin:0}
+
+/* Constrain work page images and thumbnails */
+.work-grid .art-image {
+  max-height: 220px;
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+.work-item.tall .art-image { max-height: 340px; }
+.work-grid .art-image img {
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  display: block;
+  object-fit: cover;
+}
