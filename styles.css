@@ -143,3 +143,4 @@ h1,h2,h3{font-family:var(--display);line-height:1.02;letter-spacing:-.055em;marg
   display: block;
   object-fit: cover;
 }
+.art-image{border-radius:var(--radius);overflow:hidden}.art-image img{display:block;width:100%;height:100%;object-fit:cover;}
