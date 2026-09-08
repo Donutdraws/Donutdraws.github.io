@@ -1,0 +1,38 @@
+/* styles.v3.css — imports the current stylesheet and forces tighter thumbnails (cache-bust) */
+@import url('styles.css?v=2');
+
+/* FORCE: tighter thumbnails for gallery and work grid (high specificity) */
+.gallery-section .gallery img,
+.gallery-section .gallery figure img {
+  max-width: 180px !important;
+  width: 100% !important;
+  max-height: 140px !important;
+  height: auto !important;
+  object-fit: cover !important;
+  display: block !important;
+  border-radius: 6px !important;
+}
+
+.work-grid .art-image,
+.work-grid .art-image img {
+  max-width: 220px !important;
+  width: 100% !important;
+  max-height: 160px !important;
+  height: auto !important;
+  object-fit: cover !important;
+  display: block !important;
+  overflow: hidden !important;
+  border-radius: var(--radius) !important;
+}
+.work-item.tall .art-image,
+.work-item.tall .art-image img {
+  max-height: 240px !important;
+}
+
+/* Ensure header uses same page width so alignment matches */
+header.site-header {
+  max-width: var(--max) !important;
+  margin: 0 auto !important;
+  padding: 0 28px !important;
+  box-sizing: border-box !important;
+}
