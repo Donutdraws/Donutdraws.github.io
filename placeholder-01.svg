@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d95d49"/><stop offset="1" stop-color="#302b3d"/></linearGradient></defs>
+<rect width="800" height="1000" fill="url(#g)"/>
+<circle cx="180" cy="220" r="120" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="3"/>
+<path d="M80 760 C260 560 350 940 720 650" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="7"/>
+<text x="400" y="500" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="44" font-weight="700">ILLUSTRATION 01</text>
+<text x="400" y="550" text-anchor="middle" fill="#fff" fill-opacity=".7" font-family="Arial,sans-serif" font-size="18">REPLACE WITH YOUR ART</text>
+</svg>
