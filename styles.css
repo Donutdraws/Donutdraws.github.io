@@ -72,6 +72,7 @@ h1,h2,h3{font-family:var(--display);line-height:1.02;letter-spacing:-.055em;marg
   height: auto !important;
   object-fit: contain !important;
 }
+
 @media(max-width:750px) {
   .about-layout {
     grid-template-columns: 1fr !important;
@@ -81,9 +82,16 @@ h1,h2,h3{font-family:var(--display);line-height:1.02;letter-spacing:-.055em;marg
     width: 100% !important;
     max-width: 400px !important;
   }
+}
+
+/* HOME PAGE HERO IMAGE */
+.hero-card {
+  overflow: hidden;
+}
+
 .hero-card img {
   display: block;
   width: 100%;
-  height: auto;
-  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
