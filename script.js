@@ -188,5 +188,4 @@ async function loadFeatured() {
 }
 
 loadWorkPage();
-loadFeatured();
 observeAnimations();
